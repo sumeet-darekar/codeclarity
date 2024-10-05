@@ -57,6 +57,9 @@ def unminify_js(minified_code, chain):
         return None
 
 def main():
+    st.set_page_config(
+        page_title="codeClarity",
+    )
     st.title("CodeClarity")
     st.write("""
     This tool formats minified JavaScript code to improve readability. 
