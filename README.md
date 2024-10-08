@@ -18,3 +18,5 @@
     - Large files may take longer to process
     - You can try the example code to see how it works
    
+## Demo
+[codeClarity.webm](https://github.com/user-attachments/assets/be350c78-fe5d-4818-a7cc-1da8b3e1387f)
