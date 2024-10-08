@@ -2,6 +2,7 @@
 
 ## Features
  - Unminifying JavaScript Code
+ - Finding Api keys
  - Link Extraction
  - Regex-based Sensitive Information Extraction
  - Downloadable Output
