@@ -4,8 +4,17 @@ from langchain.prompts import PromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 import os
 import re
+from dotenv import load_dotenv
 
-os.environ["GROQ_API_KEY"] = "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"
+load_dotenv()
+
+
+groq_api_key = os.getenv("GROQ_API_KEY")
+
+if not groq_api_key:
+    raise ValueError("GROQ_API_KEY is not set in the .env file")
+    
+os.environ["GROQ_API_KEY"] = groq_api_key
 
 # Add regex patterns for credentials
 PATTERNS = {
