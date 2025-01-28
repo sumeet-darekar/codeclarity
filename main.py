@@ -148,7 +148,7 @@ def main():
 
     st.title("CodeClarity")
     st.write("""
-    This tool formats minified JavaScript code, extracts links, and identifies potential credentials. 
+    [r1] This tool formats minified JavaScript code, extracts links, and identifies potential credentials. 
     Upload a file containing minified code or paste your code directly.
     """)
 
