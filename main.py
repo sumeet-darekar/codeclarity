@@ -5,7 +5,7 @@ from langchain_core.runnables import RunnablePassthrough
 import os
 import re
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 
 # Add regex patterns for credentials
 PATTERNS = {
@@ -39,7 +39,7 @@ def initialize_chain():
     """Initialize the LLM chain"""
     llm = ChatGroq(
         temperature=0,
-        model_name="llama-3.1-70b-versatile",
+        model_name="deepseek-r1-distill-llama-70b",
     )
     
     chain = (
